@@ -24,6 +24,9 @@ spec:
         name: external-dns
         namespace: external-dns
       interval: 1m
+  extraArgs:
+    default-targets: 'lb.dc'
+  booleanArg1:
   values:
     provider: cloudflare
     cloudflareProxied: true
