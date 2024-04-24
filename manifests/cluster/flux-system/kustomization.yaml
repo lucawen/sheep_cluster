@@ -6,4 +6,4 @@ resources:
 - gotk-sync.yaml
 - pull-secrets.yaml
 - cilium.yaml
-- cluster-policies.yaml
+- ingress.yaml
