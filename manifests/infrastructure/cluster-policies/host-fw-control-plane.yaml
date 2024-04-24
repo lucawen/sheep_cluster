@@ -90,9 +90,7 @@ spec:
 
   # Allow access to etcd and api from unconfigured nodes
   - fromCIDR:
-    - 159.69.60.182/32
-    - 88.99.105.56/32
-    - 46.4.77.66/32
+    - 10.0.0.0/16
     toPorts:
     - ports:
       - port: "2379"
