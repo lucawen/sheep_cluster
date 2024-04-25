@@ -26,9 +26,9 @@ spec:
       ui:
         enabled: true
       peerService:
-        clusterDomain: local.dc.sheeplab.dev
+        clusterDomain: cluster.local
     etcd:
-      clusterDomain: local.dc.sheeplab.dev
+      clusterDomain: cluster.local
     kubeProxyReplacement: strict
     securityContext:
       capabilities:
