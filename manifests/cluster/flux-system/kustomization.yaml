@@ -4,5 +4,5 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - pull-secrets.yaml
-# - cilium.yaml
+- cilium.yaml
 # - ingress.yaml
