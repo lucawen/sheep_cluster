@@ -1,0 +1,43 @@
+apiVersion: v1
+data:
+    CF_API_TOKEN: ENC[AES256_GCM,data:liHpA3qlTmQ5DpbetI24yDFTXr8xPqRPcTtVDje+KAt1iry4vwX5TKTlq5OdU6szUZKQJdu207I=,iv:7tiAL5GlgaSWNiCYeZvIlir1mguz1Q3QOu/A3ZA5Tf4=,tag:i+qZiW+EVjtc+dQ7PPXSfw==,type:str]
+kind: Secret
+metadata:
+    name: cloudflare-token
+    namespace: external-dns
+type: Opaque
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-04-24T07:05:37Z"
+    mac: ENC[AES256_GCM,data:BPkEOfPYM0nSEdwoauIdu0Nm/Ut+gL8f+BBB6FYHZATF9NHUZBNDcgiSuGkquT3C22tiB6T0S00Rhl1gj5re6sYVo7/TCF+wMoBKRxYdSivI5x3c3UPyQk2S2PFRiIHjxr8V3T6q6p77JWj/JJgo19UPLXYcVfsJm5ne0gaMEoA=,iv:xNqF2zcIf9+7DXbSRX1UuhnvB5yL79Y01ETtmrs0a20=,tag:fed5otQLm7N1pfSqlGvUYw==,type:str]
+    pgp:
+        - created_at: "2024-04-24T07:05:37Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4D5mMqnQNemXcSAQdARTjRfc1VNn+DIT91uKxiCVpBgOiaz3Li6EwahEtN+lAw
+            TqWQ0FcqlEdgKbkQpT+P52GuTbUnXJxHnQaWQlbmKqvxQ6MKRV3lqFW7PKkgjdNq
+            1GgBCQIQkdE8/eDwe/BHMo2dYIRLAjGaeamMZHdbOBLnym6K8eqhWvuqIp2WAX+Z
+            TbKywK3Uogg7Evw0AMc8v4xJxg7ZAnEy8CBugh7J6YwrD0Uh41VmX2BapVWbC0yr
+            oiHLIJ1o4nmPhA==
+            =HJnp
+            -----END PGP MESSAGE-----
+          fp: 12ABFF8D5FFD0A910EB7F360B968CC2CD1CE08E4
+        - created_at: "2024-04-24T07:05:37Z"
+          enc: |-
+            -----BEGIN PGP MESSAGE-----
+
+            hF4DUuTPxQfQ2pESAQdATu+wLlhGy09FRTcLFUQbVhJlmUhOImMLNosVrLcGHxkw
+            tQ6bcdcM4yFBKYIePzF6gBtrri5DtXv/MLYFU0fE1A0aZj98KeNHsSe2xyaAcB+D
+            1GgBCQIQ6n8v+xCmtN+3dOB8ZaLmc2L9tV9MUVfpvhTCUG1I/EQpWX0IFC1oaf9h
+            2ukrh1rCAcngBzrsVTxEyJ2Cov4a3a08ZvIJJ3mDrnS5f1Ml+KoGzrRg3qPpJO6P
+            c30/UyWP6FuxHA==
+            =kknZ
+            -----END PGP MESSAGE-----
+          fp: C1B127FE85D8F1C17AAC236F2F67BCE9A85EF7C4
+    encrypted_regex: ^(data|stringData)$
+    version: 3.8.1
